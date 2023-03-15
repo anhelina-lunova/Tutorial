@@ -61,3 +61,26 @@ a[href="https://www.youtube.com"]
   .social-links .link:visited {
     color: green;
   }
+
+  button:hover {
+    color: white;
+    background-color: palevioletred;
+}
+
+/*Додамо базове оформлення таблиці і стилі для ховера по рядках.*/
+
+.schedule-body > tr:hover {
+  background-color: tomato;
+  color: white;
+}
+
+/* Оформлення таблиці */
+.schedule {
+  border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+  padding: 8px;
+  border: 1px solid #212121;
+}
