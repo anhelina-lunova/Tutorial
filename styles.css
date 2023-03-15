@@ -57,3 +57,7 @@ a[href="https://www.youtube.com"]
 .social-links .link:active {
     color: red;
   }
+
+  .social-links .link:visited {
+    color: green;
+  }
